@@ -1,8 +1,9 @@
 class StudentsController < ApplicationController
 
   def index
-    students = Student.all
-    render json: students
+    
+    
+    render json: Student.all
   end
 
   def show
